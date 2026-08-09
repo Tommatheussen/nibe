@@ -713,5 +713,37 @@
         }
       }
     }
+  },
+  {
+    "description": "Energy meter mode mappings - VVM225/VVM320/VVM325",
+    "files": [
+      "vvm225_vvm320_vvm325.json"
+    ],
+    "data": {
+      "49287": {
+        "info": "Energy meter X23 in mode Wh/pulse = 0, pulses/kWh = 1, EMK150 = 2, EMK300/310 = 3, EMK500 = 4, EMK300/310/05 = 5",
+        "max": 5.0,
+        "mappings": {
+          "0": "Wh/pulse",
+          "1": "pulses/kWh",
+          "2": "EMK150",
+          "3": "EMK300/310",
+          "4": "EMK500",
+          "5": "EMK300/310/05"
+        }
+      },
+      "49288": {
+        "info": "Energy meter X22 in mode Wh/pulse = 0, pulses/kWh = 1, EMK150 = 2, EMK300/310 = 3, EMK500 = 4, EMK300/310/05 = 5",
+        "max": 5.0,
+        "mappings": {
+          "0": "Wh/pulse",
+          "1": "pulses/kWh",
+          "2": "EMK150",
+          "3": "EMK300/310",
+          "4": "EMK500",
+          "5": "EMK300/310/05"
+        }
+      }
+    }
   }
 ]

@@ -7695,25 +7695,41 @@
   },
   "49287": {
     "title": "Energy Meter mode X23",
-    "info": "Energy meter X23 in mode Wh/pulse = 0 or pulses/kWh = 1",
+    "info": "Energy meter X23 in mode Wh/pulse = 0, pulses/kWh = 1, EMK150 = 2, EMK300/310 = 3, EMK500 = 4, EMK300/310/05 = 5",
     "size": "u8",
     "factor": 1,
     "min": 0.0,
-    "max": 1.0,
+    "max": 5.0,
     "default": 0.0,
     "name": "energy-meter-mode-x23-49287",
-    "write": true
+    "write": true,
+    "mappings": {
+      "0": "Wh/pulse",
+      "1": "pulses/kWh",
+      "2": "EMK150",
+      "3": "EMK300/310",
+      "4": "EMK500",
+      "5": "EMK300/310/05"
+    }
   },
   "49288": {
     "title": "Energy Meter mode X22",
-    "info": "Energy meter X22 in mode Wh/pulse = 0 or pulses/kWh = 1",
+    "info": "Energy meter X22 in mode Wh/pulse = 0, pulses/kWh = 1, EMK150 = 2, EMK300/310 = 3, EMK500 = 4, EMK300/310/05 = 5",
     "size": "u8",
     "factor": 1,
     "min": 0.0,
-    "max": 1.0,
+    "max": 5.0,
     "default": 0.0,
     "name": "energy-meter-mode-x22-49288",
-    "write": true
+    "write": true,
+    "mappings": {
+      "0": "Wh/pulse",
+      "1": "pulses/kWh",
+      "2": "EMK150",
+      "3": "EMK300/310",
+      "4": "EMK500",
+      "5": "EMK300/310/05"
+    }
   },
   "49289": {
     "title": "Ground water pump speed control ",
